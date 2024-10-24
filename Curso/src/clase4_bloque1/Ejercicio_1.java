@@ -4,6 +4,7 @@ public class Ejercicio_1 {
 
 	public static void main(String[] args) {
 		//saber si es capicua
+		//comentario para probar commit
 		
 		int [] numeros = {1,7,7,1};
 		
