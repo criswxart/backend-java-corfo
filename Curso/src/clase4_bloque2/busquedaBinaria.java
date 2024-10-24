@@ -19,7 +19,7 @@ public class busquedaBinaria {
 		}else {
 			System.out.println("Valor se encuentra en posicion "+repuesta);
 		}
-		System.out.println("Tiempo que se tardo: "+String.valueOf(System.currentTimeMillis()-tiempo_inicial));
+		System.out.println("Tiempo que se tardo: "+String.valueOf(System.currentTimeMillis()-tiempo_inicial)+" ms");
 		
 		// TODO Auto-generated method stub
 
