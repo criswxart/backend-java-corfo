@@ -6,8 +6,9 @@ import java.util.Random;
 public class busquedaLineal {
 
 	public static void main(String[] args) {		
-		
+		Long tiempo_inicial=System.currentTimeMillis();
 		System.out.println("el valor esta en el indice: "+ busqueda(2));
+		System.out.println("Tiempo que se tardo: "+String.valueOf(System.currentTimeMillis()-tiempo_inicial)+" ms");
 
 	}
 

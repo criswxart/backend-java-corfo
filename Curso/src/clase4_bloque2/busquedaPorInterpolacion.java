@@ -12,7 +12,9 @@ public class busquedaPorInterpolacion {
 			System.out.println(numerosOrdenados.getLast());
 		}
 		
-		System.out.println(buscarValor(numerosOrdenados,4));
+		Long tiempo_inicial=System.currentTimeMillis();
+		System.out.println("Valor esta en la posicion: "+buscarValor(numerosOrdenados,4)+" del array");
+		System.out.println("Tiempo que se tardo: "+String.valueOf(System.currentTimeMillis()-tiempo_inicial)+" ms");
 	}
 	
 	public static int buscarValor(ArrayList<Integer>array, int valorDeseado) {

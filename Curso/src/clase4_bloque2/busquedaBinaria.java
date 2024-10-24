@@ -11,13 +11,15 @@ public class busquedaBinaria {
 			numerosOrdenados.add(i);
 			//System.out.println(numerosOrdenados.getLast());
 		}
-		int repuesta=buscarValor(numerosOrdenados, 30);
+		Long tiempo_inicial=System.currentTimeMillis();
+		
+		int repuesta=buscarValor(numerosOrdenados, 4);
 		if(repuesta==-1) {
 			System.out.println("Valor no esta en el array");
 		}else {
 			System.out.println("Valor se encuentra en posicion "+repuesta);
 		}
-		
+		System.out.println("Tiempo que se tardo: "+String.valueOf(System.currentTimeMillis()-tiempo_inicial));
 		
 		// TODO Auto-generated method stub
 
